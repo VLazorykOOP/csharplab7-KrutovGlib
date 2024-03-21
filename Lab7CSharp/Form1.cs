@@ -55,8 +55,11 @@ namespace Lab7CSharp
             richTextBoxOutput.AppendText(string.Join("", newString.ToArray())); // Додаємо всі символи у новому рядку
         }
 
-
-
-
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }

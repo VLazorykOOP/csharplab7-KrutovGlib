@@ -59,7 +59,14 @@ namespace Lab7CSharp
         {
             this.Hide();
             Form2 form = new Form2();
-            form.Show();
+            form.ShowDialog();
+            this.Close();
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
